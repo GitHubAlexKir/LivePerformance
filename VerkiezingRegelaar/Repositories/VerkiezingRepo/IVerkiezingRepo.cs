@@ -11,6 +11,8 @@ namespace VerkiezingRegelaar.Repositories.VerkiezingRepo
     {
         List<Verkiezing> getVerkiezingen();
         List<Partij> getPartijen(int id);
+        List<Partij> getAllPartijen();
+        void addVerkiezing(List<int> partijIDs, string text, int value);
         //List<Uitslag> getUitslagen(int id);
         //List<Coalitie> getCoalities(int id);
     }

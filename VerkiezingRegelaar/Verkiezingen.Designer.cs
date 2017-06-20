@@ -60,6 +60,7 @@
             this.buttonNieuw.TabIndex = 3;
             this.buttonNieuw.Text = "Nieuwe verkiezing";
             this.buttonNieuw.UseVisualStyleBackColor = true;
+            this.buttonNieuw.Click += new System.EventHandler(this.buttonNieuw_Click);
             // 
             // Verkiezingen
             // 

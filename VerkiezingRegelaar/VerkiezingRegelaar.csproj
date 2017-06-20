@@ -49,6 +49,12 @@
     <Compile Include="Entities\Partij.cs" />
     <Compile Include="Entities\Verkiezing.cs" />
     <Compile Include="IConnection.cs" />
+    <Compile Include="NieuwVerkiezing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NieuwVerkiezing.Designer.cs">
+      <DependentUpon>NieuwVerkiezing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Repositories\VerkiezingRepo\IVerkiezingRepo.cs" />
     <Compile Include="Repositories\VerkiezingRepo\VerkiezingRepo.cs" />
     <Compile Include="Verkiezingen.cs">
@@ -59,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NieuwVerkiezing.resx">
+      <DependentUpon>NieuwVerkiezing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Verkiezingen.resx">
       <DependentUpon>Verkiezingen.cs</DependentUpon>
     </EmbeddedResource>
